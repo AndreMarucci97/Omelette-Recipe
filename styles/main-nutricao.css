@@ -6,6 +6,10 @@
     color: var(--cor-textos);
 }
 
+.nutricao__textos{
+    margin-left: 1em;
+}
+
 .nutricao__subtitulo {
     font-size: 1.7rem;
     font-family: var(--fonte-titulo);
@@ -16,6 +20,7 @@
 
 .nutricao__descricao{
     font-size: .9em;
+    margin-top: 1em;
 }
 
 .nutricao__lista {
@@ -38,3 +43,10 @@
     font-weight: 700;
 }
 
+@media screen and (min-width:1024px) {
+    .nutricao__lista_item{
+       padding-right: 20%;
+       justify-content: space-between;
+       
+    }
+}

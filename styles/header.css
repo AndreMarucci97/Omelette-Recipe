@@ -35,4 +35,8 @@
         width: 90%;
         border-radius: 10px;
     }
+
+    .cabecalho__texto {
+        margin: 0 5%;
+    }
 }
