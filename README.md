@@ -6,12 +6,6 @@ O foco do desafio é praticar **HTML semântico**, **CSS**, **tipografia**, **la
 
 ---
 
-## 📸 Preview
-
-> Adicione aqui screenshots dos dois layouts
-
----
-
 ## 🛠️ Tecnologias
 
 - HTML5  
