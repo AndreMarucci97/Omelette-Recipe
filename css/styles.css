@@ -1,0 +1,45 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* folhas de estilos */
+@import url(/styles/header.css);
+@import url(/styles/main-card.css);
+@import url(/styles/main-ingredients.css);
+@import url(/styles/main-instrucoes.css);
+@import url(/styles/main-nutricao.css);
+
+:root {
+    --fonte-titulo: "Young Serif", serif;
+    --fonte-textos: "Outfit", sans-serif;
+
+    --branco-fundo: #ffffffff;
+    --rosa-fundo-card: #fff5faff; 
+    --subtitulo-card: #7b284fff;
+    --subtitulos-pagina: #854632ff;
+    --cor-textos: #5f574eff;
+    --cor-titulo:#302d2cff;
+    --fundo-desktop: #f3e6d8ff;
+}
+
+body {
+    font-family: var(--fonte-textos);
+}
+
+@media screen and (min-width:1024px) {
+    body{
+        background-color: var(--fundo-desktop);
+        margin: 10% 20%;
+    }
+
+    .card__desktop {
+        background: var(--branco-fundo);
+        box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.08);
+        padding-bottom: 1em;
+        border-radius: 10px;
+    }
+
+    .mobile__break {
+        display: none;
+    } 
+}

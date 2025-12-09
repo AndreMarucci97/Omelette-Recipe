@@ -1,0 +1,36 @@
+.card__preparacao {
+    background-color: var(--rosa-fundo-card);
+    border-radius: 1em;
+    margin: 2em 1.5em;
+    padding: 1.7em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card__subtitulo {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: auto;
+    color: var(--subtitulo-card);
+}
+
+.card__lista_preparacao {
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+    list-style-type: disc;
+    margin-right: 4em;
+    margin-left: 2em;
+    color: var(--cor-textos);
+}
+
+strong{
+    font-weight: 600;
+}
+
+.item__lista_preparacar{
+    padding-left: 1em;
+    font-size: .9em;
+    line-height: 1.2;
+}

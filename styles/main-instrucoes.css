@@ -1,0 +1,28 @@
+.instrucoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--cor-textos);
+    margin: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgb(191, 189, 189);
+}
+
+.instrucoes__subtitulo {
+    font-size: 1.7rem;
+    font-family: var(--fonte-titulo);
+    color: var(--subtitulos-pagina);
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.instrucoes__lista {
+    list-style-type: disc;
+    font-size: .9em;
+    line-height: 2;
+    margin-left: 1.1em;
+}
+
+.instrucoes__lista_item {
+    padding-left: 1em;
+}

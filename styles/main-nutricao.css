@@ -1,0 +1,40 @@
+.nutricao {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 1em;
+    gap: 1em;
+    color: var(--cor-textos);
+}
+
+.nutricao__subtitulo {
+    font-size: 1.7rem;
+    font-family: var(--fonte-titulo);
+    color: var(--subtitulos-pagina);
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.nutricao__descricao{
+    font-size: .9em;
+}
+
+.nutricao__lista {
+     font-size: .9em;
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+     margin: 0 1.5em;
+}
+
+.nutricao__lista_item {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(191, 189, 189);
+}
+
+.nutricao__calorias {
+    color: var(--subtitulos-pagina);
+    font-weight: 700;
+}
+
